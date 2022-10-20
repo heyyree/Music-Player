@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player Mood</title>
+        <link rel="stylesheet" href="/src/music.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/fffd504955.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="background-color">
+        <div class="music-container play menu">
+            <div class="music-info">
+                <h4 id="title">Title Song</h4>
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+            </div>
+
+            <div class="music-info2" id="music-info2">
+                <div class="song-list">
+                    <h2>Can We Kiss Forever</h2>
+                    <h3>Kina ft. Adriana Proenza</h3>
+                </div>
+                <div class="song-list">
+                    <h2>I Fall Apart</h2>
+                    <h3>Post Malone</h3>
+                </div>
+                <div class="song-list">
+                    <h2>Like I Need U</h2>
+                    <h3>Keshi</h3>
+                </div>
+                <div class="song-list">
+                    <h2>Moonlight</h2>
+                    <h3>Dept(뎁트) ft. Sonny Zero, 오넷(OoOo)</h3>
+                </div>
+                <div class="song-list">
+                    <h2>Right Here</h2>
+                    <h3>Keshi</h3>
+                </div>
+                <div class="song-list">
+                    <h2>Moonlight</h2>
+                    <h3>Dept(뎁트) ft. Sonny Zero, 오넷(OoOo)</h3>
+                </div>
+                <div class="song-list">
+                    <h2>SAD!</h2>
+                    <h3>XXXTENTACION (HYE SUNG REMIX)</h3>
+                </div>
+            </div>
+
+            <audio src="/src/music/keshi.mp3" id="audio"></audio>
+            <div class="img-container">
+                <img src="/src/images/img1.jpg" alt="music cover" id="cover"/>
+            </div>
+
+            <div class="navigation">
+                <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+                <button id="menu" class="action-btn action-btn-big2">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <script src="/src/music.js"></script>
+    </body>
+</html>
